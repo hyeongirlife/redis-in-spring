@@ -18,3 +18,12 @@ spring:
 logging:
   level:
     org.springframework.cache: trace # Redis ??? ?? ??? ????? ??
+
+---
+spring:
+  config:
+    on-profile: prod
+  datasource:
+    url: jdbc:mysql://hyeongeol-database.cwvj9lqfkyqc.ap-northeast-2.rds.amazonaws.com:3306/mydb
+    username: admin
+    password: dlgusrjf1!
