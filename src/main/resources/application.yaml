@@ -24,6 +24,6 @@ spring:
   config:
     on-profile: prod
   datasource:
-    url: jdbc:mysql://hyeongeol-database.cwvj9lqfkyqc.ap-northeast-2.rds.amazonaws.com:3306/mydb
+    url: jdbc:mysql://hyeongeol-database-2.cwvj9lqfkyqc.ap-northeast-2.rds.amazonaws.com:3306/mydb
     username: admin
     password: dlgusrjf1!
