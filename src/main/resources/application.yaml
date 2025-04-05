@@ -28,3 +28,7 @@ spring:
     url: jdbc:mysql://hyeongeol-database-2.cwvj9lqfkyqc.ap-northeast-2.rds.amazonaws.com:3306/mydb
     username: admin
     password: dlgusrjf1!
+  data:
+    redis:
+      host: hyeongeol-cache-server-test.jbspx1.ng.0001.apn2.cache.amazonaws.com
+      port: 6379
