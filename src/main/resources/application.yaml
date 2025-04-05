@@ -22,7 +22,8 @@ logging:
 ---
 spring:
   config:
-    on-profile: prod
+    activate:
+      on-profile: prod
   datasource:
     url: jdbc:mysql://hyeongeol-database-2.cwvj9lqfkyqc.ap-northeast-2.rds.amazonaws.com:3306/mydb
     username: admin
